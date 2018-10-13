@@ -6,7 +6,6 @@ h1{
 h2,h3{
     text-align: right;
     color: white;
-    
 }
 .contenedor {
     background-color: #5b7989; 
@@ -30,24 +29,25 @@ h2,h3{
     width: 90%;
 }
 #imgsecund{
+    text-align: center;    
     background-color: #d5c75f;
     width: 100%;
-    border: 1px;
 }
+/* Por defecto está para moviles:  Ancho maximo de 700px */
 .paisajes{
-    margin: 2%
-    text-align: left;
-    width: 46%;
-    border: 1px;
+    margin: 1%;
+    text-align: center;
+    width: 90%;
+    border: 1px solid black;
 }
 .retratos{
-    margin: 2%;
-    text-align: right;
-    width: 46%;
-    border: 1px;
+    margin: 1%;
+    text-align: center;
+    width: 90%;
+    border: 1px solid black;
 }
-
-@media (min-width< 800px) {
+/* Punto de quiebre para Desktop:  Ancho minimo de 700px */
+@media (min-width:700px) {
 .cabecera{
     width: 100%;
     text-align: center;
@@ -64,6 +64,12 @@ h2,h3{
     width: 10%;
     text-align: center;
  } 
+ .paisajes{
+     width: 45%;
+ }
+ .retratos{
+     width: 45% 
+    }
 }
  
 @media (min-width: 800px) {
@@ -103,6 +109,18 @@ h2,h3{
         margin-right: auto;
         } */   
     }
+/* aplica un efecto de rotación de 10 grados cuando se coloca el puntero sobre ella */
+#caballos img:hover{
+    transform: rotate(10deg);
+    border: 2px solid black;
+}
+/* aplica un efecto de traslación de 5px hacia arriba y 20px a la derecha  */
+#poloteam img:hover{
+    border: 2px solid black;  
+    transform: translate(20px, -5px);    
+}
+    
+    /*transform: rotate(10deg); Efecto de Rotacion*/
 footer{
     background-color: #C6d5c5;
     border-radius: 10px;
