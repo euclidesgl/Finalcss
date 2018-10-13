@@ -37,12 +37,14 @@ h2,h3{
 .paisajes{
     margin: 2%
     text-align: left;
-    width: 45%;
+    width: 46%;
+    border: 1px;
 }
 .retratos{
     margin: 2%;
     text-align: right;
-    width: 45%;
+    width: 46%;
+    border: 1px;
 }
 
 @media (min-width< 800px) {
