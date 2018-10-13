@@ -1,14 +1,3 @@
-header {
-    
-    /*
-    padding: 3px 10px;
-	margin-bottom: 5px;
-	background: -webkit-linear-gradient(left, #1f47a8, #55dedf); /* For Safari 5.1 to 6.0 
-	background: -o-linear-gradient(right, #1f47a8, #55dedf); /* For Opera 11.1 to 12.0 
-	background: -moz-linear-gradient(right, #1f47a8, #55dedf); /* For Firefox 3.6 to 15 
-	background: linear-gradient(to right, #1f47a8, #55dedf); /* Standard syntax */
-
-}
 h1{
     text-align: left;
     color: white;
@@ -31,34 +20,50 @@ h2,h3{
     /*color: white; */
     /* text-shadow: 2px 2px #02010a;*/
 }
+#imgcentral{
+    text-align: center;
+    background-color: #82c3a6;
+    width: 100%;
+}
+.imagen{
+    margin: 2%;
+    width: 90%;
+}
+#imgsecund{
+    background-color: #d5c75f;
+    width: 100%;
+    border: 1px;
+}
+.paisajes{
+    margin: 2%
+    text-align: left;
+    width: 45%;
+}
+.retratos{
+    margin: 2%;
+    text-align: right;
+    width: 45%;
+}
+
 @media (min-width< 800px) {
 .cabecera{
     width: 100%;
     text-align: center;
     }
 .enlaces::link1 {
-    width: 33%;
+    width: 50%;
     text-align: center;
  } 
 .enlaces::link2 {
-    width: 33%;
+    width: 50%
     text-align: center;
  } 
 .enlaces::link3 {
-    width: 33%;
+    width: 10%;
     text-align: center;
  } 
 }
- /*
-.link2 {
-    width: 33,3%;
-    text-align: center;
- } 
-.link3 {
-    width: 33,3%;
-    text-align: center;
- } */
-
+ 
 @media (min-width: 800px) {
     .cabecera {
     width: 70%;
@@ -80,7 +85,11 @@ h2,h3{
                 margin-left: auto;
                 margin-right: auto;
                 }            
-        /*
+    .imagen{
+        width: 90%;
+    }
+                
+                /*
     .link2 {
         width: 10%;
         margin-left: auto;
@@ -92,14 +101,6 @@ h2,h3{
         margin-right: auto;
         } */   
     }
-#imgcentral{
-    margin: 1%;
-    text-align: center;
-    background-color: #82c3a6;
-}
-.imagen{
-    width: 90%;
-}
 footer{
     background-color: #C6d5c5;
     border-radius: 10px;
