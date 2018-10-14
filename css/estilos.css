@@ -1,12 +1,11 @@
 h1{
     font-family: 'Dancing Script';
-    text-align: left;
     color: white;
     
 }
 h2,h3{
     font-family: 'Dancing Script';    
-    text-align: right;
+    text-align: center;
     color: white;
 }
 p{
@@ -32,14 +31,10 @@ body{
     /* text-shadow: 2px 2px #02010a;*/
 }
 
-.c1, .c2{
+.img{
  width: 100%;
 }
-table{
-    /*width: 100%;
-    width: 50%; Le asigna la mitad del espacio del navegador a la tabla 
-    border-collapse: collapse;    */
-}
+
 #imgcentral{
     text-align: center;
     background-color: #82c3a6;
@@ -49,12 +44,19 @@ table{
     margin: 2%;
     width: 90%;
 }
-#imgsecund{
+.c1, .c2{
     text-align: center;    
     background-color: #d5c75f;
     width: 100%;
 }
 /* Por defecto está para moviles:  Ancho maximo de 700px */
+.cabecera{
+    width: 100%;
+    text-align: center;
+}
+.link1, .link2, .link3{
+    width: 33.33%;
+}
 .paisajes{
     margin: 1%;
     text-align: center;
@@ -68,14 +70,13 @@ table{
     border: 1px solid black;
 }
 /* Punto de quiebre para Desktop:  Ancho minimo de 700px */
-@media (min-width:700px) {
+@media (min-width:600px) {
 .cabecera{
-    width: 100%;
-    text-align: center;
+    width: 70%;
+    text-align: left;
     }
-.enlaces::link1 {
-    width: 50%;
-    text-align: center;
+.link1, .link2, .link3 {
+    width: 10%;
  } 
 .enlaces::link2 {
     width: 50%
@@ -85,6 +86,9 @@ table{
     width: 10%;
     text-align: center;
  } 
+ .img{
+     width: 100%
+ }
  .c1, .c2{
     width: 50%;
    }
