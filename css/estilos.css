@@ -139,9 +139,3 @@ body{
     transform: translate(20px, -5px);    
 }
     
-    /*transform: rotate(10deg); Efecto de Rotacion*/
-footer{
-    background-color: #C6d5c5;
-    border-radius: 10px;
-    text-align: center;
-}
