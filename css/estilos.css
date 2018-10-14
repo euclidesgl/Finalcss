@@ -9,12 +9,17 @@ h2,h3{
     text-align: right;
     color: white;
 }
+p{
+    font-family: 'Dancing Script';    
+    text-align: center;
+    color: white;
+}
 body{
     background-color: #02010a;
     text-align: center;
 }
 .contenedor {
-    width: 900px;
+    /* width: 900px;*/
     background-color: #5b7989; 
     border-radius: 10px;    
     text-shadow: 2px 2px #02010a;
@@ -25,6 +30,15 @@ body{
     text-align: right;
     /*color: white; */
     /* text-shadow: 2px 2px #02010a;*/
+}
+
+.c1, .c2{
+ width: 100%;
+}
+table{
+    /*width: 100%;
+    width: 50%; Le asigna la mitad del espacio del navegador a la tabla 
+    border-collapse: collapse;    */
 }
 #imgcentral{
     text-align: center;
@@ -44,13 +58,13 @@ body{
 .paisajes{
     margin: 1%;
     text-align: center;
-    width: 90%;
+    width: 100%;
     border: 1px solid black;
 }
 .retratos{
     margin: 1%;
     text-align: center;
-    width: 90%;
+    width: 100%;
     border: 1px solid black;
 }
 /* Punto de quiebre para Desktop:  Ancho minimo de 700px */
@@ -71,12 +85,12 @@ body{
     width: 10%;
     text-align: center;
  } 
- .paisajes{
-     width: 45%;
- }
- .retratos{
-     width: 45% 
-    }
+ .c1, .c2{
+    width: 50%;
+   }
+ /*.paisajes, .retratos{
+     width: 50%;
+ }*/
 }
  
 @media (min-width: 800px) {
