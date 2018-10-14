@@ -1,15 +1,26 @@
 h1{
     font-family: 'Dancing Script';
     color: white;
+    font-size: 2em;
     
 }
-h2,h3{
+h2{
     font-family: 'Dancing Script';    
+    font-size: 1.2em;
+    text-align: center;
+    color: black;
+}
+
+h3{
+    font-family: 'Dancing Script';    
+    font-size: 1.2em;
     text-align: center;
     color: white;
 }
+
 p{
     font-family: 'Dancing Script';    
+    font-size: 1.2em;    
     text-align: center;
     color: white;
 }
@@ -49,6 +60,17 @@ body{
     background-color: #d5c75f;
     width: 100%;
 }
+.contactos, .terminos, .redes, .derechos{
+    width: 100%;
+    background-color: #C6d5c5;
+    text-shadow: none;
+}
+#contactos, #terminos, #redes, #derechos {
+    text-align: center;
+    /*text: color black;*/
+    width: 100%;
+}
+
 /* Por defecto está para moviles:  Ancho maximo de 700px */
 .cabecera{
     width: 100%;
@@ -69,6 +91,7 @@ body{
     width: 100%;
     border: 1px solid black;
 }
+
 /* Punto de quiebre para Desktop:  Ancho minimo de 700px */
 @media (min-width:600px) {
 .cabecera{
@@ -95,6 +118,9 @@ body{
  /*.paisajes, .retratos{
      width: 50%;
  }*/
+ .contactos, .terminos, .redes, .derechos{
+    width: 25%;
+}
 }
  
 @media (min-width: 800px) {
